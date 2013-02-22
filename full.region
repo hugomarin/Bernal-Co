@@ -1,0 +1,9 @@
+<div class="main-content">
+	<div class="row">
+				
+		<section class="twelve columns">
+				{squarespace.main-content}			
+		</section>
+		
+	</div>
+</div><!--/main-content-->

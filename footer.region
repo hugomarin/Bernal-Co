@@ -1,7 +1,7 @@
 
 <footer class="footer">
 	<div class="row">
-		<div class="nine columns">
+		<div class="eight columns">
 			<h5 class="whitetxt"><strong>Bernal</strong>&<strong>Company </strong><strong class="redtxt">sitemap</strong></h5>
 				<div class="footer-nav first">
 					<squarespace:block-field id="footer-nav-1" columns="12"/>
@@ -26,12 +26,12 @@
 		</div>
 		
 		
-		<div class="three columns">
+		<div class="four columns">
 			<div class="contactus">
 				<h5 class="whitetxt"><strong>Let’s continue the <span class="redtxt">conversation</span></strong></h5>
-				<h5 class="whitetxt small"><span class="mail">mail</span>{websiteSettings.contactEmail} </h5>
-				<h5 class="whitetxt small"><span class="phone">phone</span>{websiteSettings.contactPhoneNumber}</h5>
-				<h5 class="whitetxt small"><span class="phone">phone</span>{websiteSettings.contactPhoneNumber}</h5>
+				<h6 class="whitetxt small"><span class="mail">mail</span>{websiteSettings.contactEmail} </h6>
+				<h6 class="whitetxt small"><span class="phone">phone</span>{websiteSettings.contactPhoneNumber}</h6>
+				<h6 class="whitetxt small"><span class="phone">phone</span>Linkedin</h6>
 			</div>
 		</div>
 	</div><!--/row-->
@@ -41,10 +41,9 @@
 		<div class="row">
 			<div class="eight columns member">
 				<squarespace:block-field id="down-down-1" columns="12"/>
-				Member of: Association of Managment Consulting Firms - AMCF  |   Association of Corporate Growth	
 			</div>
 			<div class="four columns text-right languaje">
-				<p>English / Español</p>
+				<p>English / <a href="#">Español</a></p>
 			</div>
 		</div><!--/row-->
 	</div><!--/down-down-->

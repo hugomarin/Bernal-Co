@@ -2,22 +2,28 @@
 <div class="cases">
 	<div class="row">
 		<div class="six columns">
-			<h4>Features Cases</h4>
+			<h4>Featured Cases</h4>
 			<squarespace:block-field id="cases" columns="12" />
 		</div>
 		<div class="six columns">
 			<h4>News & Views</h4>
 			
 			<div class="row news">
+				<div class="twelve columns">
 				<squarespace:block-field id="news-1" columns="12" />
+				</div>
 			</div><!--/news-->
 			
 			<div class="row news">
+				<div class="twelve columns">
 				<squarespace:block-field id="news-2" columns="12" />
+				</div>
 			</div><!--/news--><!--/news-->
 			
 			<div class="row news">
+				<div class="twelve columns">
 				<squarespace:block-field id="news-3" columns="12" />
+				</div>
 			</div><!--/news--><!--/news-->
 			
 		</div>

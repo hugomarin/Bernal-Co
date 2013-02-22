@@ -185,7 +185,7 @@ header {
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 	min-height: 81px;
 	opacity: 1;
-	padding-top: 25px;
+	padding-top: 30px;
 	position: relative;
 	z-index: 2;
 	min-width: 980px; }
@@ -307,6 +307,20 @@ a.next {
 		right: 0; }
  
 .summary { margin-top: 120px; }
+
+
+.service-3 {
+	width: 36%;
+	max-width: 450px;
+	float: left;
+	background-color: #ff4748;
+}
+
+.service-7 {
+	width: 70%;
+	float: left;
+	background-color: #f2f0f0;
+}
  
 /*Approach*/
 
@@ -388,8 +402,9 @@ footer {
 	
 .footer-nav {
 	width: 16%;
-	margin-right: 5%;
+	margin-right: 2%;
 	float: left;
+	margin-left: 1%;
 }
 
 .footer-nav li {
@@ -400,16 +415,24 @@ footer {
 	background-color: #2f2d2d;
 	padding-top: .7em;
 	padding-bottom: .7em;
+	height: 40px;
+	overflow: hidden;
 }
 
 .down-down .member p {
 	color: #b3afaf;
 	font-size: 13px;
+	margin: 0;
 }
 
 .down-down .member p a {
 	font-weight: bold;
 	color: white;
+}
+
+.down-down .member div {
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -418,9 +441,10 @@ footer {
 	color: #b3afaf;
 	font-size: 11px;
 	text-transform: uppercase;
+	margin: 0;
 }
 
-.down-down member p a {
+.down-down .languaje p a {
 	font-weight: bold;
 	color: white;
 }	
@@ -428,6 +452,8 @@ footer {
 .footer-nav.last {
 	margin-right: 0;
 }
+ 
+ 
  
 .footer-nav h3, .footer-nav h3 a {
 	color: #ffffff;
@@ -437,12 +463,22 @@ footer {
 	margin-bottom: 5px;
 	margin-top: 0;
 	text-transform: uppercase; }
+	
+.footer h6 {
+	margin-bottom: 12px;
+	font-size: 17px;
+}
  
 .footer-nav li {
 	line-height: 1.3em;
 	margin-bottom: 11px; }
  
-	.footer-nav li a { color: #b3afaf; }
+	.footer-nav li a { color: #b3afaf;
+	}
+	
+	.footer-nav li a:hover {
+		text-decoration: underline;
+	}
  
 ul.social {
 	float: left;
