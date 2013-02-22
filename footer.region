@@ -1,0 +1,41 @@
+<footer class="footer">
+	<div class="row">
+		<div class="eight columns">
+			<h5 class="whitetxt"><strong>Bernal</strong>&<strong>Company </strong><strong class="redtxt">sitemap</strong></h5>
+			<div class="row">
+				<div class="three columns footer-nav">
+					<squarespace:block-field id="footer-nav-1" columns="12"/>
+				</div>
+				
+				<div class="three columns footer-nav">
+					<squarespace:block-field id="footer-nav-2" columns="12"/>
+				</div>
+
+				<div class="three columns footer-nav">
+					<squarespace:block-field id="footer-nav-3" columns="12"/>
+				</div>
+				
+				<div class="three columns footer-nav">
+					<squarespace:block-field id="footer-nav-4" columns="12"/>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		<div class="four columns">
+			<h5 class="whitetxt"><strong>Let’s continue the <span class="redtxt">conversation</span></strong></h5>
+			<squarespace:block-field id="footer-social" columns="12"/>
+				<!--<ul class="social clearfix">
+					<li><a href="http://" class="facebook">facebook</a></li>
+					<li><a href="http://" class="linkedin">linkedin</a></li>
+				</ul>-->
+			
+			<div class="contactus">
+				<h5 class="whitetxt"><strong>Contact us</strong></h5>
+				<h5 class="whitetxt"><span class="mail">mail</span>{websiteSettings.contactEmail} </h5>
+				<h5 class="whitetxt"><span class="phone">phone</span>{websiteSettings.contactPhoneNumber}</h5>
+			</h5>
+		</div>
+	</div>
+</footer

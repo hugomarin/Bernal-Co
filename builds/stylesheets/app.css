@@ -1,0 +1,563 @@
+/* @override http://metaphysic.co/proyectos/bernal-co/stylesheets/app.css */
+/* Artfully masterminded by ZURB  */
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+/* -----------------------------------------
+   Typography
+----------------------------------------- */
+body { font: normal 400 14px/21px proxima-nova; /*background: url(https://dl.dropbox.com/u/991960/home-V.2.jpg) no-repeat 112px 28px;*/ }
+ 
+blockquote, p, li, h1, h2, h3, h4, h5, h6 { font-family: proxima-nova; }
+ 
+blockquote a:link {  }
+ 
+blockquote a:visited {  }
+ 
+blockquote a:hover {  }
+ 
+blockquote {
+	color: rgba(169, 169, 169, 1.00);
+	font-size: 19px;
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 37px;
+	margin-bottom: 25px; }
+ 
+h1 a:link { color: #000000; }
+ 
+h1 a:visited {  }
+ 
+h1 a:hover {  }
+ 
+h1 {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: -1px;
+	margin-top: 0px; }
+ 
+h2 a:link {  }
+ 
+h2 a:visited {  }
+ 
+h2 a:hover {  }
+ 
+h2 {
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: -1px;
+	line-height: 50px;
+	margin-bottom: 15px;
+	margin-top: 0; }
+ 
+h3 a:link {  }
+ 
+h3 a:visited {  }
+ 
+h3 a:hover {  }
+ 
+h3 {
+	font-size: 31px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: -1px;
+	line-height: 40px;
+	margin-bottom: 28px;
+	margin-top: 16px; }
+ 
+h4 a:link {  }
+ 
+h4 a:visited {  }
+ 
+h4 a:hover {  }
+ 
+h4 {
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 30px;
+	margin-bottom: 25px;
+	margin-top: 16px; }
+ 
+h5 a:link {  }
+ 
+h5 a:visited {  }
+ 
+h5 a:hover {  }
+ 
+h5 {
+	font-size: 19px;
+	font-style: normal;
+	font-weight: normal;
+	margin-bottom: 25px;
+	margin-top: 10px; }
+ 
+h6 a:link {  }
+ 
+h6 a:visited {  }
+ 
+h6 a:hover {  }
+ 
+h6 {
+	color: rgba(45, 51, 50, 1.00);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 25px; }
+ 
+p a:link {
+	color: rgba(207, 67, 56, 1.00);
+	text-decoration: none; }
+ 
+p a:visited { color: rgba(207, 67, 56, 1.00); }
+ 
+p a:hover {  }
+ 
+p {
+	font-size: 14px;
+	line-height: 20.875px;
+	margin-bottom: 25px; }
+ 
+#fragment-56437 {  }
+ 
+p.intro a:link {  }
+ 
+p.intro a:visited {  }
+ 
+p.intro a:hover {  }
+ 
+p.intro {
+	color: #303030;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: -1px;
+	line-height: 26px; }
+ 
+p.caps a:link {  }
+ 
+p.caps a:visited {  }
+ 
+p.caps a:hover {  }
+ 
+p.caps {
+	color: rgba(179, 175, 175, 1.00);
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase; }
+ 
+/* -----------------------------------------
+   Shared
+----------------------------------------- */
+.whitetxt { color: #ffffff; }
+ 
+.redtxt { color: #e13232; }
+
+.no-margin {
+	margin: 0;
+}
+ 
+/* Nicolas Gallagher's micro clearfix */
+.row:before, .row:after, .clearfix:before, .clearfix:after {
+	content: "";
+	display: table; }
+ 
+.row:after, .clearfix:after { clear: both; }
+ 
+.row, .clearfix { zoom: 1; }
+ 
+/* -----------------------------------------
+   Blocks
+----------------------------------------- */
+/*Header*/
+header {
+	-moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+	background-color: #ffffff;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+	min-height: 81px;
+	opacity: 1;
+	padding-top: 25px;
+	position: relative;
+	z-index: 2; }
+ 
+ul.menu {
+	float: right;
+	margin-bottom: 0; }
+ 
+	ul.menu li {
+		float: left;
+		font-size: 12px;
+		font-weight: 700;
+		height: 48px;
+		list-style-type: none;
+		margin-bottom: 0;
+		margin-left: 40px;
+		margin-top: 8px;
+		padding: 0;
+		text-transform: uppercase; }
+ 
+		ul.menu li:first-child { margin-left: 0; }
+ 
+		ul.menu li.active-link, ul.menu li.active-folder { border-bottom: 5px solid #ee1b24; }
+ 
+		ul.menu li.active-link a, ul.menu li.active-folder a { color: #0a0a0a; }
+ 
+		ul.menu li a {
+			color: #a9a9a9;
+			letter-spacing: 0; }
+ 
+			ul.menu li a:hover {
+				color: #000000;
+				letter-spacing: 0; }
+ 
+/*Banner*/
+.the-banner {
+	background-color: #daf1eb;
+	height: 390px;
+	opacity: 1;
+	position: relative;
+	z-index: 1; }
+ 
+	.the-banner h2 {
+		letter-spacing: -2px;
+		line-height: 1em;
+		margin-bottom: 6px; }
+ 
+.banner-nav {
+	bottom: 10px;
+	left: 50%;
+	margin-left: -45px;
+	position: absolute;
+	z-index: 3; }
+ 
+	.banner-nav ul { min-width: 90px; }
+ 
+		.banner-nav ul li {
+			cursor: pointer;
+			direction: ltr;
+			float: left;
+			height: 16px;
+			list-style: none;
+			margin-left: 5px;
+			margin-right: 5px;
+			text-indent: -9999px;
+			width: 16px; }
+ 
+			.banner-nav ul li:first-child { margin-left: 0; }
+ 
+	.banner-nav  ul li:last-child { margin-right: 0; }
+ 
+	.banner-nav ul li.active { background: url(../images/sprite/spriteX1.png) -103px 0; }
+ 
+	.banner-nav ul li.inactive { background: url(../images/sprite/spriteX1.png) -103px -19px; }
+ 
+.banner-control { position: relative; }
+ 
+a.prev, 
+a.next {
+	background: url(../images/sprite/spriteX1.png);
+	direction: ltr;
+	display: block;
+	height: 44px;
+	margin-top: -22px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 50%;
+	width: 44px; }
+ 
+a.prev {
+	background-position: 1px -47px;
+	left: 0; }
+ 
+	a.prev:hover {
+		background-position: -45px -47px;
+		left: 0; }
+ 
+a.next {
+	background-position: 0 0;
+	right: 0; }
+ 
+	a.next:hover {
+		background-position: -46px 0;
+		right: 0; }
+ 
+.summary { margin-top: 120px; }
+ 
+/*Approach*/
+.approach .item {
+	padding-bottom: 40px;
+	padding-top: 55px; }
+ 
+	.approach .item:hover { background-color: #ff4748; }
+ 
+	.approach .item img {
+		display: block;
+		margin-bottom: 36px;
+		margin-left: auto;
+		margin-right: auto; }
+ 
+li.approach-li {
+	color: #000000;
+	font-size: 15px;
+	font-weight: 600;
+	list-style-type: none;
+	margin-bottom: 1px;
+	text-align: center; }
+ 
+	li.approach-li a { color: #000000; }
+ 
+/*Cases*/
+.cases {
+	background: 6px #f9f8f8;
+	padding-bottom: 65px; }
+ 
+	.cases h4 {
+		border-bottom: 1px solid #bdb7b7;
+		color: #bdb7b7;
+		display: inline-block;
+		font-size: 19px;
+		font-weight: 700;
+		margin-bottom: 27px;
+		margin-top: 22px;
+		text-transform: uppercase; }
+ 
+	.cases h3 {
+		font-size: 25px;
+		margin-bottom: 0;
+		margin-top: 0; }
+ 
+/*News*/
+.news { padding-bottom: 13px; }
+ 
+	.news h2 {
+		color: #bdb7b7;
+		font-size: 12px;
+		font-weight: 600;
+		letter-spacing: 0;
+		line-height: 1em;
+		margin-bottom: 0;
+		margin-top: 0;
+		text-transform: uppercase; }
+ 
+	.news h3 {
+		font-size: 16px;
+		letter-spacing: 0;
+		line-height: 1em;
+		margin-bottom: 13px;
+		margin-top: 0; }
+ 
+/*Footer*/
+footer {
+	background-color: #121111;
+	padding-bottom: 60px;
+	padding-top: 29px; }
+ 
+.footer-nav h6 {
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 0;
+	margin-bottom: 19px;
+	margin-top: 0;
+	text-transform: uppercase; }
+ 
+.footer-nav li {
+	line-height: 1.3em;
+	margin-bottom: 11px; }
+ 
+	.footer-nav li a { color: #b3afaf; }
+ 
+ul.social {
+	float: left;
+	margin-bottom: 46px;
+	width: 100%; }
+ 
+.social li { float: left; }
+ 
+.facebook, .linkedin {
+	background: url(../images/sprite/spriteX1.png);
+	direction: ltr;
+	display: block;
+	height: 33px;
+	margin-right: 1px;
+	text-indent: -9999px;
+	width: 33px; }
+ 
+.facebook {
+	background-position: 0 -94px;
+	left: 0; }
+ 
+.linkedin {
+	background-position: -34px -94px;
+	left: 0; }
+ 
+.facebook:hover {
+	background-position: -67px -93px;
+	left: 0; }
+ 
+.linkedin {
+	background-position: -34px -94px;
+	left: 0; }
+ 
+	.linkedin:hover {
+		background-position: -101px -93px;
+		left: 0; }
+ 
+.mail, .phone {
+	background: url(../images/sprite/spriteX1.png);
+	direction: ltr;
+	display: inline-block;
+	height: 22px;
+	margin-right: 6px;
+	text-indent: -9999px;
+	width: 25px; }
+ 
+.mail {
+	background-position: -70px -128px;
+	left: 0; }
+ 
+.phone {
+	background-position: -92px -129px;
+	left: 0; }
+ 
+ 
+ 
+/* -----------------------------------------
+   Inner
+----------------------------------------- */
+
+.main-content {
+	padding-top: 65px;
+	padding-bottom: 60px;
+}
+
+.main-content h1 {
+	color: #999494;
+	letter-spacing: -1px;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1em;
+	margin-bottom: 0;
+}
+
+.main-content h2 {
+	color: #121111;
+	letter-spacing: -2px;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 1em;
+	margin-bottom: 43px;
+	margin-top: 9px;
+}
+
+.main-content h2 strong {
+	background-color: #ee1b24;
+	display: inline;
+	padding: 0 5px;
+	color: #ffffff;
+}
+
+.main-content h3 {
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+
+.main-content li {
+	list-style-position: outside;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+.main-content blockquote {
+	font-size: 25px;
+	color: #121111;
+	font-weight: normal;
+	font-style: normal;
+	border-width: 0;
+	padding-left: 0;
+	line-height: 32px;
+	margin-bottom: 50px;
+}
+
+
+.main-content p strong {
+	background-color: #ee1b24;
+	display: inline;
+	padding: 0 5px;
+	color: #ffffff;
+}
+
+
+.team h2 {
+	font-size: 25px;
+	margin-top: 20px;
+	line-height: 1em;
+	margin-bottom: 5px;
+	letter-spacing: -1px;
+}
+
+.team h3 {
+	font-size: 11px;
+	line-height: 1em;
+	margin-bottom: 10px;
+	letter-spacing: 0;
+	margin-top: 0;
+	color: #b3afaf;
+	text-transform: uppercase;
+}
+
+.team img {
+	border: 5px solid #ffffff;
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.14);
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.14);
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.14);
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.team a {
+	font-weight: bold;
+}
+
+
+.sidebar {
+	padding-top: 40px;
+}
+
+.sidebar h4 {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	line-height: 1em;
+	border-bottom: 4px solid #ee1b24;
+	display: inline-block;
+	padding-bottom: 4px;
+	margin-bottom: 0;
+}
+
+ul.side-nav {
+	padding-top: 25px;
+	border-top: 1px solid #bdb7b7;
+	margin-top: -1px;
+}
+
+ul.side-nav li a {
+	font-size: 15px;
+	color: #b3afaf;
+}
+
+ul.side-nav li.active-link a {
+	font-size: 15px;
+	color: #121111;
+	font-weight: bold;
+}

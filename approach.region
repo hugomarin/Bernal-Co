@@ -1,0 +1,19 @@
+<div class="approach">
+	<div class="row">
+		<div class="four columns item">
+			<a href=""><img src="https://bernalandco.squarespace.com/assets/images/understand-icon.png" alt=""  /></a>
+			<squarespace:block-field id="approach-1" columns="12" />
+
+		</div>
+		<div class="four columns item">
+			<img src="https://bernalandco.squarespace.com/assets/images/develop-icon.png" alt="" />
+			<squarespace:block-field id="approach-2" columns="12" />
+
+		</div>
+		<div class="four columns item">
+			<img src="https://bernalandco.squarespace.com/assets/images/deliver-icon.png" alt=""  />
+			<squarespace:block-field id="approach-3" columns="12" />
+
+		</div>
+	</div>
+</div><!--/approach-->

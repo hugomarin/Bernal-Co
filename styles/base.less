@@ -1,0 +1,66 @@
+
+/* MOBILE FIRST
+-------------------------------------------------*/
+
+
+#header { }
+
+#main-navigation { }
+
+#content { }
+
+#footer { }
+
+
+/* HOMEPAGE
+-----------------------------------------------*/
+
+.homepage { }
+
+
+/* BLOG COLLECTION
+-----------------------------------------------*/
+
+.collection-type-blog {
+
+  /* BOTH PAGES 
+  ---------------------------------------------*/
+
+  /* LIST PAGE
+  ---------------------------------------------*/
+
+  &.view-list { }
+
+  /* ITEM PAGE
+  ---------------------------------------------*/  
+
+  &.view-item { }
+  
+}
+
+
+/* TOUCH DEVICE - ADDED BY MODERNIZR
+-----------------------------------------------*/
+
+html.touch {
+  .squarespace-comments .comments-content .comment-list .comment .comment-header .controls .squarespace-comment-buttons .comment-control {
+    opacity: 1;
+  }
+}
+
+
+/* BREAK GRID AND STACK BLOCKS ON SMALL SCREENS 
+-----------------------------------------------*/
+
+@media screen and (max-width: 48em) {
+  .row .col {
+    width: 100%;
+    float: none;
+  }
+}
+
+
+/* BEYOND MOBILE
+-----------------------------------------------*/
+
+@media screen and (min-width: 48em) { }

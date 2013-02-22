@@ -1,0 +1,22 @@
+<section class="the-banner">
+	<div class="row">
+		<div class="seven columns summary offset-by-one">
+			<img src="https://bernalandco.squarespace.com/assets/images/logo-1.png" alt="" />
+			{squarespace.main-content}
+		</div>
+		
+	</div>
+	
+		<a href="" class="prev">prev</a>
+		<a href="" class="next">next</a>
+	
+	<div class="banner-nav">
+		<ul>
+			<li class="active">active</li>
+			<li class="inactive">inactive</li>
+			<li class="inactive">inactive</li>
+			<li class="inactive">inactive</li>
+		</ul>
+	</div>	
+	
+</section><!--/the-banner-->
