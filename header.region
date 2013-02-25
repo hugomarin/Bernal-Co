@@ -17,14 +17,7 @@
   <squarespace:script src="jquery.min.js" combo="true" />
   <squarespace:script src="site.js" combo="true" />
   
-  <script type='text/javascript'>
-  (function (d, t) {
-    var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
-    bh.type = 'text/javascript';
-    bh.src = '//www.bugherd.com/sidebarv2.js?apikey=jn0esramm2ggivjxdkxwog';
-    s.parentNode.insertBefore(bh, s);
-    })(document, 'script');
-  </script>
+
 
 </head>
  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">

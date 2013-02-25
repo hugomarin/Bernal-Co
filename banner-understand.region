@@ -1,0 +1,17 @@
+<section class="the-banner-2">
+	<div class="row">
+		<div class="three columns">
+			<div class="service-3">
+				<img src="https://bernalandco.squarespace.com/assets/images/understand-icon-white.png"
+				<h3>Understand</h3>
+			</div>
+		</div>
+	
+		<div class="nine columns">
+			<div class="service-7">
+				{squarespace.main-content}	
+			</div>
+		</div>
+	
+			
+</section><!--/the-banner-->
