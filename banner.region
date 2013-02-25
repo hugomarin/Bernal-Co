@@ -7,7 +7,7 @@
 		
 	</div>
 	
-		<a href="" class="prev">prev</a>
+<!--		<a href="" class="prev">prev</a>
 		<a href="" class="next">next</a>
 	
 	<div class="banner-nav">
@@ -17,6 +17,6 @@
 			<li class="inactive">inactive</li>
 			<li class="inactive">inactive</li>
 		</ul>
-	</div>	
+	</div>-->	
 	
 </section><!--/the-banner-->

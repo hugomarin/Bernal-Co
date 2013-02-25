@@ -173,6 +173,11 @@ p.caps {
 .row:after, .clearfix:after { clear: both; }
  
 .row, .clearfix { zoom: 1; }
+
+.container {
+	padding-right: 20px;
+	padding-left: 20px;
+}
  
 /* -----------------------------------------
    Blocks
@@ -222,12 +227,23 @@ ul.menu {
  
 /*Banner*/
 .the-banner {
-	background-color: #daf1eb;
 	height: 390px;
 	opacity: 1;
 	position: relative;
 	overflow: hidden;
-	z-index: 1; }
+	z-index: 1;
+	background: url(https://bernalandco.squarespace.com/assets/images/banner.jpg) repeat-x center center #daf1eb;
+}
+
+
+.the-banner-2 {
+	height: 260px;
+	opacity: 1;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	background: url(https://bernalandco.squarespace.com/assets/images/bg-banner-services.jpg) repeat-y center center #f2f0f0;
+}
  
 	.the-banner h2 {
 		letter-spacing: -2px;
@@ -310,17 +326,76 @@ a.next {
 
 
 .service-3 {
-	width: 36%;
-	max-width: 450px;
-	float: left;
 	background-color: #ff4748;
+	height: 260px;
+	padding-top: 4em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+}
+
+.service-3 h3 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 24px;
 }
 
 .service-7 {
-	width: 70%;
-	float: left;
 	background-color: #f2f0f0;
+	height: 260px;
+	padding: 2.5em 0 1em 4em;
 }
+ 
+ 
+.service-7 blockquote {
+	font-size: 20px;
+	color: #121111;
+	font-weight: normal;
+	font-style: normal;
+	border-width: 0;
+	padding-left: 0;
+	margin-bottom: 50px;
+	line-height: 1.5em;
+}
+
+
+.service-7 h2 {
+	color: #121111;
+	letter-spacing: -2px;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 1em;
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+
+.service-7 h2 strong {
+	background-color: #ee1b24;
+	display: inline;
+	padding: 0 5px;
+	color: #ffffff;
+}
+
+
+.services {
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+}
+
+.services h3 {
+	font-size: 20px;
+	margin-bottom: .6em;
+}
+ 
+ 
+.services h4 {
+	border-bottom: 1px solid #bdb7b7;
+	color: #bdb7b7;
+	display: inline-block;
+	font-size: 19px;
+	font-weight: 700;
+	margin-bottom: 27px;
+	margin-top: 22px;
+	text-transform: uppercase; } 
  
 /*Approach*/
 
@@ -488,13 +563,13 @@ ul.social {
 .social li { float: left; }
  
 .facebook, .linkedin {
-	direction: ltr;
-	display: block;
+	display: inline-block;
 	height: 33px;
-	margin-right: 1px;
+	margin-right: 3px;
 	text-indent: -9999px;
 	width: 33px;
 	background-image: url(https://bernalandco.squarespace.com/assets/images/sprite/spriteX1.png);
+	vertical-align: middle;
 }
  
 .facebook {
