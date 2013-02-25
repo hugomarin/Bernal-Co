@@ -164,6 +164,10 @@ p.caps {
 .no-margin {
 	margin: 0;
 }
+
+.margin-botton {
+	margin-bottom: 2.5em;
+}
  
 /* Nicolas Gallagher's micro clearfix */
 .row:before, .row:after, .clearfix:before, .clearfix:after {
@@ -174,10 +178,6 @@ p.caps {
  
 .row, .clearfix { zoom: 1; }
 
-.container {
-	padding-right: 20px;
-	padding-left: 20px;
-}
  
 /* -----------------------------------------
    Blocks
@@ -322,8 +322,10 @@ a.next {
 		background-position: -46px 0;
 		right: 0; }
  
-.summary { margin-top: 120px; }
+.summary { margin-top: 5em; }
 
+
+/*Service*/
 
 .service-3 {
 	background-color: #ff4748;
@@ -331,6 +333,12 @@ a.next {
 	padding-top: 4em;
 	padding-bottom: 1em;
 	padding-right: 1em;
+}
+
+.service-3 img {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
 }
 
 .service-3 h3 {
@@ -483,7 +491,7 @@ footer {
 }
 
 .footer-nav li {
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .down-down {
@@ -532,7 +540,7 @@ footer {
  
 .footer-nav h3, .footer-nav h3 a {
 	color: #ffffff;
-	font-size: 11px;
+	font-size: 13px;
 	font-weight: bold;
 	letter-spacing: 0;
 	margin-bottom: 5px;
@@ -562,54 +570,44 @@ ul.social {
  
 .social li { float: left; }
  
-.facebook, .linkedin {
-	display: inline-block;
-	height: 33px;
-	margin-right: 3px;
-	text-indent: -9999px;
-	width: 33px;
-	background-image: url(https://bernalandco.squarespace.com/assets/images/sprite/spriteX1.png);
-	vertical-align: middle;
-}
- 
-.facebook {
-	background-position: 0 -94px;
-	left: 0; }
- 
+
 .linkedin {
-	background-position: -34px -94px;
-	left: 0; }
- 
-.facebook:hover {
-	background-position: -67px -93px;
-	left: 0; }
- 
-.linkedin {
-	background-position: -34px -94px;
-	left: 0; }
- 
-	.linkedin:hover {
-		background-position: -101px -93px;
-		left: 0; }
- 
-.mail, .phone {
-	direction: ltr;
-	display: inline-block;
-	height: 22px;
-	margin-right: 6px;
-	text-indent: -9999px;
-	width: 25px;
-	background-image: url(https://bernalandco.squarespace.com/assets/images/sprite/spriteX1.png);
+  display: inline-block;
+  margin-right: 6px;
+  text-indent: -9999px;
+  background-image: url(https://bernalandco.squarespace.com/assets/images/sprite/spriteX1.png);
+  vertical-align: middle;
+  background-size: 135px 151px;
+  width: 25px;
+  height: 25px;
 }
- 
-.mail {
-	background-position: -70px -128px;
-	left: 0; }
- 
+
+.linkedin {
+  background-position: -26px -102px;
+  left: 0;
+}
+
+
+.mail,
 .phone {
-	background-position: -92px -129px;
-	left: 0; }
- 
+  direction: ltr;
+display: inline-block;
+margin-right: 6px;
+vertical-align: middle;
+  height: 25px;
+  text-indent: -9999px;
+  background-image: url(https://bernalandco.squarespace.com/assets/images/sprite/spriteX1.png);
+  background-size: 135px 151px;
+  width: 25px;
+}
+.mail {
+  background-position: 0 -102px;
+  left: 0;
+}
+.phone {
+  background-position: -51px -102px;
+  left: 0;
+}
  
  
 /* -----------------------------------------

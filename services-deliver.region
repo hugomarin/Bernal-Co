@@ -1,0 +1,25 @@
+<div class="services">
+	<div class="row">
+	<div class="twelve columns">
+	<h4>Services</h4>
+	</div>
+	</div>
+	
+	
+	<div class="row">
+
+				<div class="four columns">
+					<squarespace:block-field id="services-7" columns="12" />
+		
+				</div>
+				<div class="four columns">
+					<squarespace:block-field id="services-8" columns="12" />
+		
+				</div>
+				<div class="four columns">
+					<squarespace:block-field id="services-9" columns="12" />
+		
+				</div>			
+		
+	</div>
+</div><!--/main-content-->

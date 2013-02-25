@@ -1,6 +1,6 @@
 <section class="the-banner">
 	<div class="row">
-		<div class="seven columns summary offset-by-one">
+		<div class="seven columns summary">
 			<img src="https://bernalandco.squarespace.com/assets/images/logo-1.png" alt="" />
 			{squarespace.main-content}
 		</div>
