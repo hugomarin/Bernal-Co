@@ -29,9 +29,9 @@
 		<div class="four columns">
 			<div class="contactus">
 				<h5 class="whitetxt margin-botton"><strong>Let’s continue the <span class="redtxt">conversation</span></strong></h5>
-				<h6 class="whitetxt small"><span class="mail">mail</span>{websiteSettings.contactEmail} </h6>
 				<h6 class="whitetxt small"><span class="phone">phone</span>{websiteSettings.contactPhoneNumber}</h6>
-				<h6 class="whitetxt small"><span class="linkedin">Linkedin</span>Linkedin</h6>
+				<h6 class="whitetxt small"><span class="mail">mail</span><a href="mailto:info@bernalandco.com">{websiteSettings.contactEmail}</a> </h6>
+				<h6 class="whitetxt small"><span class="linkedin">Linkedin</span><a href="http://www.linkedin.com/company/540797?trk=prof-exp-company-name" target="_blank">Linkedin</a></h6>
 				
 			</div>
 		</div>
