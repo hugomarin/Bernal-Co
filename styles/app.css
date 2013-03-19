@@ -416,7 +416,7 @@ a.next {
 	background: 6px #f9f8f8;
 	padding-bottom: 65px; }
  
-	.cases h4 {
+	.cases h4, .whitepapers h4 {
 		border-bottom: 1px solid #bdb7b7;
 		color: #bdb7b7;
 		display: inline-block;
@@ -691,6 +691,21 @@ vertical-align: middle;
 	margin-top: 0;
 	color: #b3afaf;
 	text-transform: uppercase;
+}
+
+
+
+.splash {
+	background-color: rgb(44, 44, 44);
+	padding-bottom: 3em;
+	padding-top: 2em;
+}
+
+
+.whitepapers {
+padding-bottom: 2em;
+padding-top: 1em;
+	
 }
 
 .main-content img {
