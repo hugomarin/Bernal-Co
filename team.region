@@ -1,0 +1,13 @@
+<div class="main-content">
+	<div class="row">
+				
+		<section class="nine columns push-three">
+				{squarespace.main-content}			
+		</section>
+		
+		<aside class="three columns pull-nine sidebar">
+			<squarespace:folder-navigation template="submenu" />
+		</aside>
+		
+	</div>
+</div><!--/main-content-->

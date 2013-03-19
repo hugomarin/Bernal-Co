@@ -6,21 +6,12 @@
 ----------------------------------------- */
 body {
 	font: normal 400 14px/21px proxima-nova;
- /*background: url(https://dl.dropbox.com/u/991960/home-V.2.jpg) no-repeat 112px 28px;*/;
 }
 
 blockquote, p, li, h1, h2, h3, h4, h5, h6 {
 	font-family: proxima-nova;
 }
 
-blockquote a:link {;
-}
-
-blockquote a:visited {;
-}
-
-blockquote a:hover {;
-}
 
 blockquote {
 	color: rgba(169, 169, 169, 1.00);
@@ -36,11 +27,7 @@ h1 a:link {
 	color: #000000;
 }
 
-h1 a:visited {;
-}
 
-h1 a:hover {;
-}
 
 h1 {
 	font-size: 24px;
@@ -113,8 +100,6 @@ p a:visited {
 	color: rgba(207, 67, 56, 1.00);
 }
 
-p a:hover {;
-}
 
 p {
 	font-size: 14px;
@@ -680,11 +665,13 @@ vertical-align: middle;
 }
 
 
-.main-content p strong {
+.main-content p em {
 	background-color: #ee1b24;
 	display: inline;
 	padding: 0 5px;
 	color: #ffffff;
+	font-weight: normal;
+	font-style: normal;
 }
 
 
@@ -706,7 +693,7 @@ vertical-align: middle;
 	text-transform: uppercase;
 }
 
-.team img {
+.main-content img {
 	border: 5px solid #ffffff;
 	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.14);
 	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.14);

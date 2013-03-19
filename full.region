@@ -2,7 +2,8 @@
 	<div class="row">
 				
 		<section class="twelve columns">
-				{squarespace.main-content}			
+				{squarespace.main-content}
+						
 		</section>
 		
 	</div>
