@@ -420,7 +420,7 @@ a.next {
 	background: 6px #f9f8f8;
 	padding-bottom: 65px; }
  
-	.cases h4, .whitepapers h4 {
+	.cases h4, .whitepapers h4, .videos h4 {
 		border-bottom: 1px solid #bdb7b7;
 		color: #bdb7b7;
 		display: inline-block;
@@ -428,7 +428,7 @@ a.next {
 		font-weight: 700;
 		margin-bottom: 27px;
 		margin-top: 22px;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		letter-spacing: 1px;
 	}
  
@@ -749,16 +749,29 @@ padding-top: 1em;
 	
 }
 
-.whitepapers h2 {
+.videos {
+padding-bottom: 1em;
+padding-top: 1em;
+background-color: #393939;
+}
+
+
+
+.whitepapers h2, .videos h3 {
 	font-size: 17px;
 	margin-top: 0;
 	margin-bottom: .5em;
 	line-height: 1em;
 }
 
-.whitepapers p {
+.whitepapers p, .videos p {
 	font-size: 12px;
 	line-height: 1.4em;
+}
+
+
+.videos p, .videos h3 {
+	color: #ffffff;
 }
 
 .main-content img {
