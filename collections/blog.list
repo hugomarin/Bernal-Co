@@ -27,35 +27,68 @@
     
     <!--MAIN IMAGE-->
 
-    {.main-image?}  
-      <a href="{fullUrl}" class="main-image content-fill">
-        <img {@|image-meta} />
-      </a>
-    {.end}
-
     <!--POST TILE-->
 
-    <h1 class="title">
+    <h3 class="title">
       {.passthrough?}
         <a href="{sourceUrl}" target="_blank">{title}</a>
       {.or}
         <a href="{fullUrl}">{title}</a>
       {.end}
-    </h1>
+    </h3>
+    
+    
+    <p class="meta">
+      <a href="{fullUrl}"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="?author={author.id}">{author.displayName}</a>.
+      {.section sourceUrl}
+        <a href="{@}" class="source" target="_blank">Source</a>.
+      {.end}
+    </p> 
 
     <!--EXCERPT OR BODY-->
 
+   <div class="row">
+   
+   
+    {.main-image?} 
+    <div class="four columns"> 
+      <a href="{fullUrl}" class="main-image content-fill">
+        <img {@|image-meta} />
+      </a>
+          </div>
+    {.end}
+
+    
+    
     {.if excerpt}
+    <div class="eight columns">
       {excerpt}
-      <a class="link" href="{fullUrl}">Read More</a>
+     </div>
     {.or}
+    
+    
 
       <!--MAIN CONTENT-->
 
       {body}
-      <a class="link" href="{fullUrl}">Permalink</a>
+      
+	</div>
+
+
 
     {.end}
+    
+    
+    <div class="row">
+    <div class="twelve columns">
+    <ul class="blog-actions clearfix">
+    	<li class="readmore"><a class="link" href="{fullUrl}">Read More</a></li>
+    	<li class="comment">{@|comment-link}</li>
+    	<li class="social">{@|social-button}</li>
+    	<li class="like">{@|like-button}</li>
+    </ul>
+    </div>
+    </div>
 
     <!--BLOG INJECTION-->
 
@@ -63,33 +96,27 @@
 
     <!--CATEGORIES-->
 
-    {.repeated section categories}
+<!--    {.repeated section categories}
       <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with},
-    {.end}
+    {.end}-->
 
     <!--TAGS-->
 
-    {.repeated section tags}
+<!--    {.repeated section tags}
       <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
-    {.end}
+    {.end}-->
 
     <!--SHARE AND LIKE-->
 
-    {@|like-button}
-    {@|social-button}
+<!--    {@|like-button}
+    {@|social-button}-->
 
     <!--POST META-->
-    
-    <p class="meta">
-      Published on <a href="{fullUrl}"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="?author={author.id}">{author.displayName}</a>.
-      {.section sourceUrl}
-        <a href="{@}" class="source" target="_blank">Source</a>.
-      {.end}
-    </p>        
+         
 
     <!--LINK TO COMMENTS-->
 
-    {@|comment-link}
+<!--    {@|comment-link}-->
 
     <!--LOCATION-->
 

@@ -1,0 +1,14 @@
+<div class="padding-30 blog-content">
+	<div class="container">
+		<div class="row">
+			
+			<section class="eight columns">
+				{squarespace.main-content}	
+			</section>
+			
+			<aside class="four columns sidebar">
+			<squarespace:block-field id="block-side-blog"/>				
+			</aside>
+		</div>
+	</div><!--/container -->
+</div><!--/main-content-->

@@ -48,6 +48,10 @@ h2 {
 	margin-top: 0;
 }
 
+h2.title {
+	margin-top: .5em;
+}
+
 
 h3 {
 	font-size: 31px;
@@ -420,11 +424,13 @@ a.next {
 		border-bottom: 1px solid #bdb7b7;
 		color: #bdb7b7;
 		display: inline-block;
-		font-size: 19px;
+		font-size: 20px;
 		font-weight: 700;
 		margin-bottom: 27px;
 		margin-top: 22px;
-		text-transform: uppercase; }
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
  
 	.cases h3 {
 		font-size: 25px;
@@ -696,16 +702,63 @@ vertical-align: middle;
 
 
 .splash {
-	background-color: rgb(44, 44, 44);
-	padding-bottom: 3em;
-	padding-top: 2em;
+	background-color: rgb(60, 60, 60);
+	padding-bottom: 0em;
+	padding-top: 0em;
+}
+
+.subtitle {
+	background-color: rgb(46, 46, 46);
+	padding-bottom: .3em;
+	padding-top: .8em;
+}
+
+.subtitle h3 {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 1em;
+	margin: 0;
+}
+
+.subtitle .sub-nav {
+	display: block;
+	width: auto;
+	overflow: hidden;
+	float: right;
+	margin: 0;
+	padding-top: 0;
+}
+
+.sub-nav dd {
+	margin-bottom: 0;
+}
+
+.sub-nav a {
+	color: #ffffff;
+}
+
+.sub-nav a:hover {
+	font-weight: bold;
 }
 
 
 .whitepapers {
-padding-bottom: 2em;
+padding-bottom: 1em;
 padding-top: 1em;
 	
+}
+
+.whitepapers h2 {
+	font-size: 17px;
+	margin-top: 0;
+	margin-bottom: .5em;
+	line-height: 1em;
+}
+
+.whitepapers p {
+	font-size: 12px;
+	line-height: 1.4em;
 }
 
 .main-content img {
@@ -802,4 +855,109 @@ hr {
     background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.30), rgba(0,0,0,0)); 
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.30), rgba(0,0,0,0)); 
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.30), rgba(0,0,0,0)); 
+}
+
+
+
+.blog-content {
+	margin-top: 3em;
+}
+
+.blog-content article  {
+	margin-bottom: 3em;
+}
+
+article h3 {
+	font-size: 33px;
+	margin-bottom: 0;
+	font-weight: normal;
+	font-style: normal;
+	color: #8e8e8e;
+}
+
+article h1 {
+	font-size: 33px;
+	margin-bottom: 0;
+	font-weight: normal;
+	font-style: normal;
+	color: #8e8e8e;
+}
+
+article h1.title {
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+article h1.title a, article h3 a {
+	color: #3f3f3f;
+}
+
+article a time {
+	color: #757575;
+	font-weight: normal;
+	font-style: normal;
+}
+
+article p.meta {
+	font-size: 12px;
+	color: #8e8e8e;
+}
+
+article p.meta a {
+	font-weight: bold;
+}
+
+.blog-actions {
+	padding-top: 1em;
+	border-top: 2px solid #dcdcdc;
+	border-bottom: 1px solid #f1f1f1;
+	padding-bottom: 1em;
+	float: left;
+	width: 100%;
+}
+
+.blog-actions li {
+	float: left;
+	list-style: none;
+	margin-right: 2em;
+}
+
+.blog-actions li a {
+	color: #3f3f3f;
+	font-weight: bold;
+}
+
+.blog-actions li.like {
+	float: right;
+	margin-right: 0;
+	color: #757575;
+}
+
+
+
+.squarespace-social-buttons.button-style .ss-social-button-wrapper {
+  display: block;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,.04), inset 0 -1px 0 rgba(0,0,0,.24);
+  -moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,.04), inset 0 -1px 0 rgba(0,0,0,.24);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.04), inset 0 -1px 0 rgba(0,0,0,.24);
+  cursor: pointer;
+  width: 67px;
+  padding: 1px 6px 0px 5px;
+}
+.squarespace-social-buttons.button-style .ss-social-button-wrapper:hover {
+	
+}
+.squarespace-social-buttons.button-style .ss-social-button-wrapper .ss-social-button {
+  display: inline-block;
+  font: 11px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  height: 21px;
+  line-height: 20px;
+  padding: 0px 0px 0px 22px;
+  cursor: pointer;
+  background: 2px 2px no-repeat url("/universal/images-v6/standard/icon_social_button_10_light.png");
+  background-position: 10% 50%;
 }

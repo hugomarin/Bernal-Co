@@ -1,9 +1,25 @@
+<div class="subtitle">
+<div class="row">
+	<div class="six columns">
+		<h3>Insight</h3>
+	</div>
+	<div class="six columns">
+		<dl class="sub-nav">
+		  <dd><a href="https://bernalandco.squarespace.com/archive">All</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=Whitepapers">Whitepapers</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=Articles">Articles</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=News">News</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=News">Cases</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=News">Videos</a></dd>
+		</dl>
+	</div>
+</div>
+</div>
+
 <div class="splash">
-	<div class="row">
+	<div class="row">	
 		<section class="twelve columns">
-				<h2 class="whitetxt">Insight</h2>
-				{squarespace.main-content}
-						
+			{squarespace.main-content}		
 		</section>
 	</div>
 </div>
@@ -22,13 +38,13 @@
 				<squarespace:block-field id="whitepaper-1" columns="12" />
 			</div>	
 			<div class="three columns item">
-				<squarespace:block-field id="whitepaper-1" columns="12" />
+				<squarespace:block-field id="whitepaper-2" columns="12" />
 			</div>	
 			<div class="three columns item">
-				<squarespace:block-field id="whitepaper-1" columns="12" />
+				<squarespace:block-field id="whitepaper-3" columns="12" />
 			</div>	
 			<div class="three columns item">
-				<squarespace:block-field id="whitepaper-1" columns="12" />
+				<squarespace:block-field id="whitepaper-4" columns="12" />
 			</div>	
 	</div>
 </div>
