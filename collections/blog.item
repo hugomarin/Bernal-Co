@@ -29,24 +29,14 @@
 
     {postItemInjectCode}    
 
-    <!--CATEGORIES-->
-
-    {.repeated section categories}
-      <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with},
-    {.end}
-
-    <!--TAGS-->
-
-    {.repeated section tags}
-      <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
-    {.end}
-
-    <!--SHARE AND LIKE-->
-
-    {@|like-button}
-    {@|social-button}
-
-    <!--AUTHOR AND DATE-->
+<div class="row">
+    <div class="twelve columns">
+    <ul class="blog-actions clearfix">
+    	<li class="social">{@|social-button}</li>
+    	<li class="like">{@|like-button}</li>
+    </ul>
+    </div>
+</div>
     
      
 
@@ -73,7 +63,7 @@
 <!--PAGINATION-->
   
 {.section pagination}
-  <nav>
+   <nav class="pagination">
 
     <!--NEWER PAGE-->
 

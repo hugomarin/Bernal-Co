@@ -47,47 +47,40 @@
 
     <!--EXCERPT OR BODY-->
 
-   <div class="row">
-   
-   
-    {.main-image?} 
-    <div class="four columns"> 
-      <a href="{fullUrl}" class="main-image content-fill">
-        <img {@|image-meta} />
-      </a>
-          </div>
-    {.end}
+	<div class="row">
 
-    
-    
-    {.if excerpt}
-    <div class="eight columns">
-      {excerpt}
-     </div>
-    {.or}
-    
-    
-
-      <!--MAIN CONTENT-->
-
-      {body}
-      
+		<!--{.main-image?} 
+		<div class="four columns"> 
+			<a href="{fullUrl}" class="main-image content-fill">
+			<img {@|image-meta} />
+			</a>
+		  </div>
+		{.end}-->
+		
+		{.if excerpt}
+			<div class="twelve columns">
+			{excerpt}
+			</div>
+			
+		{.or}
+			
+			<div class="twelve columns">
+			{body}
+			</div>
+		{.end}
+	
 	</div>
 
-
-
-    {.end}
-    
     
     <div class="row">
-    <div class="twelve columns">
-    <ul class="blog-actions clearfix">
-    	<li class="readmore"><a class="link" href="{fullUrl}">Read More</a></li>
-    	<li class="comment">{@|comment-link}</li>
-    	<li class="social">{@|social-button}</li>
-    	<li class="like">{@|like-button}</li>
-    </ul>
-    </div>
+	    <div class="twelve columns">
+	    <ul class="blog-actions clearfix">
+	    	<li class="readmore"><a class="link" href="{fullUrl}">Read More</a></li>
+	    	<li class="comment">{@|comment-link}</li>
+	    	<li class="social">{@|social-button}</li>
+	    	<li class="like">{@|like-button}</li>
+	    </ul>
+	    </div>
     </div>
 
     <!--BLOG INJECTION-->
@@ -98,18 +91,14 @@
 
 <!--    {.repeated section categories}
       <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with},
-    {.end}-->
+    {.end}
 
-    <!--TAGS-->
+    TAGS
 
-<!--    {.repeated section tags}
+    {.repeated section tags}
       <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
     {.end}-->
 
-    <!--SHARE AND LIKE-->
-
-<!--    {@|like-button}
-    {@|social-button}-->
 
     <!--POST META-->
          
@@ -138,7 +127,7 @@
 <!--PAGINATION-->
   
 {.if pagination}
-  <nav>
+  <nav class="pagination">
 
     <!--NEWER PAGE-->
 

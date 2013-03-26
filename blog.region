@@ -1,13 +1,59 @@
+<div class="subtitle">
+<div class="row">
+	<div class="six columns">
+		<h3>Insight</h3>
+	</div>
+	<div class="six columns">
+		<dl class="sub-nav">
+		  <dd><a href="https://bernalandco.squarespace.com/archive">All</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=Whitepapers">Whitepapers</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=Articles">Articles</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=News">News</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=News">Cases</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=News">Videos</a></dd>
+		</dl>
+	</div>
+</div>
+</div>
+
 <div class="padding-30 blog-content">
 	<div class="container">
 		<div class="row">
-			
 			<section class="eight columns">
 				{squarespace.main-content}	
 			</section>
 			
-			<aside class="four columns sidebar">
-			<squarespace:block-field id="block-side-blog"/>				
+			<aside class="four columns sidebar-blog">
+			
+				<div class="row">
+					<div class="twelve columns">
+						<h3>Search</h3>
+						<squarespace:block-field id="block-side-blog-4"/>
+					</div>
+				</div>	
+				
+				<!--<div class="row">
+					<div class="twelve columns">
+						<h3>Content type</h3>
+						<squarespace:block-field id="block-side-blog"/>
+					</div>
+				</div>-->
+				<div class="row">
+					<div class="twelve columns">
+					<h3>Date</h3>
+						<squarespace:block-field id="block-side-blog-1"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="twelve columns">
+						<h3>Latest Thinking</h3>
+						<squarespace:block-field id="block-side-blog-2"/>
+					</div>
+				</div>
+				
+
+				
+							
 			</aside>
 		</div>
 	</div><!--/container -->
