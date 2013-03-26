@@ -6,11 +6,11 @@
 	<div class="six columns">
 		<dl class="sub-nav">
 		  <dd><a href="https://bernalandco.squarespace.com/archive">All</a></dd>
-		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=Whitepapers">Whitepapers</a></dd>
 		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=Articles">Articles</a></dd>
-		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=News">News</a></dd>
 		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=News">Cases</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=News">News</a></dd>
 		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=News">Videos</a></dd>
+		  <dd><a href="https://bernalandco.squarespace.com/archive/?category=Whitepapers">Whitepapers</a></dd>
 		</dl>
 	</div>
 </div>
