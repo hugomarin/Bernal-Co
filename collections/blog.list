@@ -49,13 +49,13 @@
 
 	<div class="row">
 
-		<!--{.main-image?} 
-		<div class="four columns"> 
-			<a href="{fullUrl}" class="main-image content-fill">
+		{.main-image?} 
+		<div class="twelve columns"> 
+			<a href="{fullUrl}" class="full-width">
 			<img {@|image-meta} />
 			</a>
 		  </div>
-		{.end}-->
+		{.end}
 		
 		{.if excerpt}
 			<div class="twelve columns">
@@ -77,8 +77,11 @@
 	    <ul class="blog-actions clearfix">
 	    	<li class="readmore"><a class="link" href="{fullUrl}">Read More</a></li>
 	    	<li class="comment">{@|comment-link}</li>
-	    	<li class="social">{@|social-button}</li>
+	    	<li class="social"><script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+	    	<script type="IN/Share" data-url="https://bernalandco.squarespace.com{fullUrl}"></script></li>
 	    	<li class="like">{@|like-button}</li>
+	    	
+	    	<p></p>
 	    </ul>
 	    </div>
     </div>

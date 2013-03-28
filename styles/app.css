@@ -862,8 +862,8 @@ nav.pagination a {
 	color: black;
 	font-weight: bold;
 	-webkit-border-radius: 10px;
-	padding: .5em 1.5em;
 	border: 2px solid #000000;
+	padding: .3em 1em;
 }
 
 nav.pagination a:hover {
@@ -1026,7 +1026,7 @@ h3.comment-count {
 
 article h1.title {
 	margin-bottom: 0;
-	font-size: 44px;
+	font-size: 37px;
 }
 
 
@@ -1182,4 +1182,52 @@ article p.meta a {
   cursor: pointer;
   background: 2px 2px no-repeat url("/universal/images-v6/standard/icon_social_button_10_light.png");
   background-position: 10% 50%;
+}
+
+
+.sqs-search-ui input {
+  border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 60px;
+  font: 500 50px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05em;
+  outline: none;
+  height: 2em;
+  margin-left: 0;
+}
+
+
+.sqs-search-ui {
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100000;
+  padding: 200px 10px 50px;
+}
+
+.sqs-search-ui-list .search-results {
+	position: absolute;
+	width: 70%;
+}
+
+.sqs-search-ui-filters {
+	width: 30%;
+}
+
+
+a.full-width img {
+	width: 100%;
+	 margin-bottom: 1em;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+	 border: 5px solid #f2f2f2;
+	 -moz-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.11);
+	 -webkit-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.11);
+	 box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.11);
 }
