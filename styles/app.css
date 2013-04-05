@@ -96,12 +96,12 @@ h6 {
 }
 
 p a:link {
-	color: rgba(207, 67, 56, 1.00);
+	color: #ee1b24;
 	text-decoration: none;
 }
 
 p a:visited {
-	color: rgba(207, 67, 56, 1.00);
+	color: #ee1b24;
 }
 
 
@@ -222,6 +222,8 @@ ul.menu {
 	z-index: 1;
 	background: url(https://bernalandco.squarespace.com/assets/images/bg-banner-services.jpg) repeat-y center center #f2f0f0;
 }
+
+
  
 	.the-banner h2 {
 		letter-spacing: -2px;
@@ -234,6 +236,67 @@ ul.menu {
 	font-weight: 300;
 	letter-spacing: -1px;
 	line-height: 26px; }
+	
+	
+
+.the-banner h3 {
+  color: #303030;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  line-height: 26px;
+}
+
+.the-banner-3 {
+  position: relative;
+  z-index: 1;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  background-color: #dddcdc;
+  color: #212121;
+}
+.the-banner-3 blockquote {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  border-width: 0;
+  padding-left: 0;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+  color: #212121;
+}
+.the-banner-3 h1 {
+	letter-spacing: -2px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: .5em;
+  color: #212121;
+}
+.the-banner-3 h2 {
+	letter-spacing: -2px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+.the-banner-3 h3 {
+	letter-spacing: -2px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+.the-banner-3 p {
+	margin-top: 0;
+  margin-bottom: .5em;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 1.3em;
+}
  
 .banner-nav {
 	bottom: 10px;
@@ -306,7 +369,7 @@ a.next {
 /*Service*/
 
 .service-3 {
-	background-color: #ff4748;
+	background-color: #ee1b24;
 	height: 260px;
 	padding-top: 4em;
 	padding-bottom: 1em;
@@ -393,7 +456,7 @@ a.next {
 	padding-bottom: 40px;
 	padding-top: 55px; }
  
-	.approach .item:hover { background-color: #ff4748; }
+	.approach .item:hover { background-color: #ee1b24; }
  
 	.approach .item img {
 		display: block;
@@ -420,7 +483,7 @@ a.next {
 	background: 6px #f9f8f8;
 	padding-bottom: 65px; }
  
-	.cases h4, .whitepapers h4, .videos h4 {
+	.cases h4, .whitepapers h4, .videos h4, .industries h4, .clients h4 {
 		border-bottom: 1px solid #bdb7b7;
 		color: #bdb7b7;
 		display: inline-block;
@@ -622,6 +685,8 @@ vertical-align: middle;
 	padding-bottom: 60px;
 }
 
+
+
 .main-content h1 {
 	color: #999494;
 	letter-spacing: -1px;
@@ -755,6 +820,25 @@ padding-top: 1em;
 background-color: #393939;
 }
 
+.industries {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background-color: #393939;
+}
+
+
+	.industries h3 {
+	  color: silver;
+	  font-size: 17px;
+	  letter-spacing: 0;
+	  line-height: 1.5em;
+	}
+
+
+.industries h3 strong {
+	color: white;
+}
+
 
 
 .whitepapers h2, .videos h3 {
@@ -787,6 +871,38 @@ background-color: #393939;
 	font-weight: bold;
 }
 
+
+.result {
+	padding-top: 15px;
+	padding-bottom: 60px;
+}
+
+
+.result h2 {
+	font-size: 27px;
+}
+
+
+.result p em {
+	color: #bdb7b7;
+	font-size: 12px;
+	font-weight: 600;
+	font-style: normal;
+	letter-spacing: 0;
+	line-height: 1em;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+.result strong {
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 1em;
+	margin-bottom: 13px;
+	margin-top: 0;
+	
+}
 
 .sidebar {
 	padding-top: 40px;
@@ -872,7 +988,7 @@ nav.pagination a:hover {
 	-webkit-border-radius: 10px;
 	padding: .5em 1.5em;
 	border: 2px solid #e13232;
-	background-color: #e13232;
+	background-color: #ee1b24;
 }
 
 .blog-actions li {
@@ -896,7 +1012,7 @@ nav.pagination a:hover {
 	color: #ffffff;
 	font-weight: bold;
 	-webkit-border-radius: 10px;
-	background-color: #e13232;
+	background-color: #ee1b24;
 }
 
 nav.pagination a.disabled {
@@ -1230,4 +1346,17 @@ a.full-width img {
 	 -moz-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.11);
 	 -webkit-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.11);
 	 box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.11);
+}
+
+.what-do h3 {
+	font-size: 17px;
+	letter-spacing: 0;
+	line-height: 1em;
+	margin-bottom: .5em;
+}
+
+.what-do h2 {
+	font-size: 27px;
+	line-height: 1em;
+	margin-bottom: .5em;
 }

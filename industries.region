@@ -1,0 +1,14 @@
+<div class="industries">
+	<div class="row">
+		<div class="twelve columns">
+		<h4>Industries</h4>
+		</div>
+	</div>	
+		
+		
+	<div class="row">
+			<div class="twelve columns">
+				<squarespace:block-field id="industries-1" columns="12" />
+			</div>		
+	</div>
+</div>

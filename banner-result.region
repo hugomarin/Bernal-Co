@@ -1,0 +1,8 @@
+<section class="the-banner-3">
+	<div class="row">
+		<div class="twelve columns">
+			<squarespace:block-field id="result-banner" columns="12"/>
+		</div>
+	</div>
+			
+</section><!--/the-banner-->
