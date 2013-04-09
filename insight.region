@@ -52,8 +52,13 @@
 
 <div class="cases">
 	<div class="row">
+		<div class="twelve columns">
+		<h4>News & Views</h4>
+		</div>
+	</div>	
+	
+	<div class="row">
 		<div class="six columns">
-			<h4>News & Views</h4>
 			
 			<div class="row news">
 				<div class="twelve columns">
@@ -72,7 +77,6 @@
 		
 		
 		<div class="six columns">
-			<h4></h4>
 			
 			<div class="row news">
 				<div class="twelve columns">
