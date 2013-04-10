@@ -1,4 +1,4 @@
-<section class="the-banner">
+<!--<section class="the-banner">
 	<div class="row">
 		<div class="seven columns summary">
 			<img src="https://bernalandco.squarespace.com/assets/images/logo-1.png" alt="" />
@@ -17,6 +17,14 @@
 			<li class="inactive">inactive</li>
 			<li class="inactive">inactive</li>
 		</ul>
-	</div>-->	
+	</div>--*>	
 	
-</section><!--/the-banner-->
+</section><!--/the-banner--*>-->
+
+<div class="splash">
+	<div class="row">	
+		<section class="twelve columns">
+			{squarespace.main-content}		
+		</section>
+	</div>
+</div>

@@ -40,10 +40,10 @@
 	
 	<div class="down-down">
 		<div class="row">
-			<div class="eight columns member">
+			<div class="nine columns member">
 				<squarespace:block-field id="down-down-1" columns="12"/>
 			</div>
-			<div class="four columns text-right languaje">
+			<div class="three columns text-right languaje">
 				<p>English / <a href="#">Español</a></p>
 			</div>
 		</div><!--/row-->
