@@ -1,0 +1,17 @@
+<div class="result">
+	
+	<div class="row clients">
+		<div class="twelve columns">
+		<h4>Consulting Packages</h4>
+		</div>
+	</div>	
+
+	<div class="row">
+
+	<div class="twelve columns">
+		{squarespace.main-content}		
+	</div>
+						
+		
+	</div>
+</div><!--/main-content-->
