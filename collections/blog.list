@@ -87,10 +87,6 @@
 	    <ul class="blog-actions clearfix">
 	    	<li class="readmore"><a class="link" href="{fullUrl}">Read More</a></li>
 	    	<li class="comment">{@|comment-link}</li>
-	    	<li class="social"><!--<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-	    	<script type="IN/Share" data-url="https://bernalandco.squarespace.com{fullUrl}"></script>-->
-	    	{@|social-button}
-	    	</li>
 	    	<li class="like">{@|like-button}</li>
 	    	
 	    	<p></p>

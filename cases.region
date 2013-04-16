@@ -2,7 +2,7 @@
 <div class="cases">
 	<div class="row">
 		<div class="six columns">
-			<h4>Featured Cases</h4>
+			<h4>Featured Case</h4>
 			<squarespace:block-field id="cases" columns="12" />
 		</div>
 		<div class="six columns">

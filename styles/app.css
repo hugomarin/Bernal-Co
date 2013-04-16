@@ -179,7 +179,7 @@ header {
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 	min-height: 81px;
 	opacity: 1;
-	padding-top: 30px;
+	padding-top: 45px;
 	position: relative;
 	z-index: 2;
 	min-width: 980px; }
@@ -226,13 +226,14 @@ ul.menu {
 
 
 .the-banner-2 {
-	height: 260px;
-	opacity: 1;
-	position: relative;
-	overflow: hidden;
-	z-index: 1;
-	background: url(https://bernalandco.squarespace.com/assets/images/bg-banner-services.jpg) repeat-y center center #f2f0f0;
+  height: 260px;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: url(https://bernalandco.squarespace.com/assets/images/bg-banner-services.png) repeat-y center center #f2f0f0;
 }
+
 
 
  
@@ -258,26 +259,19 @@ ul.menu {
   line-height: 26px;
 }
 
+
 .the-banner-3 {
   position: relative;
   z-index: 1;
-  padding-top: 3em;
-  padding-bottom: 2em;
-  background-color: #dddcdc;
+  background-color: #f2f0f0;
   color: #212121;
+  padding: 2.5em 0 1em;
 }
-.the-banner-3 blockquote {
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  border-width: 0;
-  padding-left: 0;
-  margin-bottom: 20px;
-  line-height: 1.5em;
-  color: #212121;
-}
+
+  
+  
 .the-banner-3 h1 {
-	letter-spacing: -2px;
+  letter-spacing: -2px;
   font-size: 38px;
   font-weight: 700;
   line-height: 1em;
@@ -286,15 +280,35 @@ ul.menu {
   color: #212121;
 }
 .the-banner-3 h2 {
-	letter-spacing: -1px;
-  font-size: 33px;
-  font-weight: 700;
-  line-height: 1em;
-  margin-top: 0;
-  margin-bottom: .5em;
-}
+    color: #121111;
+    letter-spacing: -2px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-top: 0;
+    margin-bottom: .5em;
+ }
+ 
+.the-banner-3 h2 strong {
+   background-color: #FE4542;
+   display: inline;
+   padding: 0 5px;
+   color: #ffffff;
+ }
+ 
+ .the-banner-3 blockquote {
+     font-size: 20px;
+     color: #121111;
+     font-weight: normal;
+     font-style: normal;
+     border-width: 0;
+     padding-left: 0;
+     margin-bottom: 50px;
+     line-height: 1.5em;
+   }
+
 .the-banner-3 h3 {
-	letter-spacing: -1px;
+  letter-spacing: -1px;
   font-size: 27px;
   font-weight: 700;
   line-height: 1em;
@@ -302,7 +316,7 @@ ul.menu {
   margin-bottom: .5em;
 }
 .the-banner-3 p {
-	margin-top: 0;
+  margin-top: 0;
   margin-bottom: .5em;
   font-size: 16px;
   letter-spacing: 0;
@@ -380,11 +394,11 @@ a.next {
 /*Service*/
 
 .service-3 {
-	background-color: #FE4542;
-	height: 260px;
-	padding-top: 4em;
-	padding-bottom: 1em;
-	padding-right: 1em;
+  background-color: #2f2c2c;
+  height: 260px;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  padding-right: 1em;
 }
 
 .service-3 img {
@@ -447,15 +461,7 @@ a.next {
 }
  
  
-.services h4 {
-	border-bottom: 1px solid #bdb7b7;
-	color: #bdb7b7;
-	display: inline-block;
-	font-size: 19px;
-	font-weight: 700;
-	margin-bottom: 27px;
-	margin-top: 22px;
-	text-transform: uppercase; } 
+
  
 /*Approach*/
 
@@ -494,7 +500,7 @@ a.next {
 	background: 6px #f9f8f8;
 	padding-bottom: 65px; }
  
-	.cases h4, .whitepapers h4, .videos h4, .industries h4, .clients h4 {
+	.cases h4, .whitepapers h4, .videos h4, .industries h4, .clients h4, .services h4  {
 		border-bottom: 1px solid #bdb7b7;
 		color: #bdb7b7;
 		display: inline-block;
@@ -1331,7 +1337,7 @@ article p.meta a {
 
 
 .sqs-search-ui input:focus {
-border: 1px solid #e2e2e2;
+border: 1px solid #FE4542 !important;
 	
 }
 
