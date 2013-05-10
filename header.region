@@ -13,8 +13,7 @@
   {squarespace-headers}
   
 
-  <squarespace:script src="modernizr.foundation.js" combo="true" />
-  <squarespace:script src="jquery.min.js" combo="true" />
+  <squarespace:script src="modernizr.foundation.js" combo="false" />
   <squarespace:script src="site.js" combo="true" />
   
 

@@ -12,6 +12,9 @@ blockquote, p, li, h1, h2, h3, h4, h5, h6 {
 	font-family: proxima-nova;
 }
 
+li {
+	list-style-position: inside;
+}
 
 blockquote {
 	color: rgba(169, 169, 169, 1.00);
@@ -359,7 +362,7 @@ ul.menu {
  
 .banner-control { position: relative; }
  
-a.prev, 
+/*a.prev, 
 a.next {
 	direction: ltr;
 	display: block;
@@ -386,7 +389,7 @@ a.next {
  
 	a.next:hover {
 		background-position: -46px 0;
-		right: 0; }
+		right: 0; }*/
  
 .summary { margin-top: 5em; }
 
@@ -736,7 +739,7 @@ vertical-align: middle;
 }
 
 .main-content li {
-	list-style-position: outside;
+	list-style-position: inside;
 	margin-left: 15px;
 	margin-bottom: 20px;
 }
